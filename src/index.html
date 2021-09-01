@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-5">Leaderboard</h1>
+    <main class="row">
+      <section id="recent-scores" class="col-md-6 px-3">
+        <div id="recent-scores-head" class="d-flex justify-content-around">
+          <h2>Recent Scores</h2>
+          <button class="my-auto btn btn-light border border-dark">Refresh</button>
+        </div>
+        <div id="recent-scores-body" class="px-md-3 mt-3 ">
+          <table class="table table-light table-sm table-striped table-hover border border-dark">
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <div class="col-md-2"></div>
+      <form action="#" method="post" class="col-md-3 ps-2 d-flex flex-column">
+        <h2 class="row px-2">Add your score</h2>
+        <div class="row">
+          <input type="text" class="input" name="name" id="name" placeholder="Your name" >
+          <input type="number" class="input" name="score" id="score" placeholder="Your score"class="mb-3 mt-4" >
+        </div>
+        <input type="submit" value="Submit" class="btn btn-light border border-dark me-0 align-self-end">
+      </form>
+    </main>
+
+    </div>
+
+</body>
+</html>
