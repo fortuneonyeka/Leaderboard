@@ -4,6 +4,10 @@ body {
   padding: 0 100px;
 }
 
+#page-title {
+  color: rgb(66, 66, 160);
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -17,6 +21,7 @@ li {
 h3 {
   margin-bottom: 30px;
   font-size: 25px;
+  color: green;
 }
 
 input {
@@ -57,11 +62,15 @@ li:nth-child(odd) {
   background-color: rgb(228, 225, 225);
   padding: 3px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.111);
+  background-color: green;
+  color: white;
 }
 
 #refresh {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   background-color: rgb(228, 225, 225);
+  color: white;
+  background-color: green;
 }
 
 .hidden {
