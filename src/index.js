@@ -1,7 +1,6 @@
 import './style.css';
-import game, { getScores, submitScore } from './addScore';
-import displayScores from './showScore';
-
+import game, { getScores, submitScore } from './addScore.js';
+import displayScores from './showScore.js';
 
 const scoresList = document.getElementById('scoreboard');
 
@@ -15,7 +14,6 @@ const loadScores = () => getScores().then((scores) => {
   }
 });
 
-
 const refreshButton = document.getElementById('refresh-scoreboard');
 refreshButton.addEventListener('click', loadScores);
 window.onload = () => {
@@ -23,7 +21,6 @@ window.onload = () => {
   title.innerHTML += ` - ${game}`;
   loadScores();
 };
-
 
 const newScore = document.getElementById('new-score');
 const newplayer = document.getElementById('player-name');
