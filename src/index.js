@@ -14,7 +14,7 @@ const loadScores = () => getScores().then((scores) => {
   }
 });
 
-const refreshButton = document.getElementById('refresh-scoreboard');
+const refreshButton = document.getElementById('refresh');
 refreshButton.addEventListener('click', loadScores);
 window.onload = () => {
   const title = document.getElementById('page-title');
